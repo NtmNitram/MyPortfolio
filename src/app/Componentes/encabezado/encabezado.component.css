@@ -1,0 +1,72 @@
+  /*navbar*/
+
+  div button  {
+    margin:5px;
+  
+  }
+  
+  nav button a {
+    vertical-align: middle;
+    margin:1px
+  }
+  
+  section a{
+    text-decoration: none;
+    color: var(--azulcito);
+    
+  }
+
+h1{
+  
+  font-size: 90px;
+}
+  
+
+  .btn-redes {
+  
+  border-radius: 50%;
+  font-size: 25px;
+  
+  }
+  
+  .btn-login {
+    padding: 10px 50px;
+    border-radius: 30px;
+    font-weight: 900;
+  }
+  
+  .btn-login, .btn-redes {
+    background-color:var(--bg-dark);
+    color: var(--main-color);
+    border-color:transparent;
+  }
+  .btn-login:hover,.btn-redes:hover{
+    -webkit-box-shadow: 0px 0px 7px 2px var(--bg-dark);
+    box-shadow: 0px 0px 7px 2px var(--main-color);
+  }
+  
+  .btn-login:hover,.btn-redes:hover,.nav-item:hover  {
+    text-shadow: 0px 0px 9px var(--azulcito);
+    transform: scale(1.1);
+  }
+  
+  .nav-item {
+  font-size: 15px;
+  font-weight: bold;
+  }
+  /*fin navbar*/
+  
+  .bg {
+    text-align: center;
+    padding:10px;
+    height: 100vh;
+    background-size: cover;
+    box-sizing: border-box;
+    filter: blur(2px);
+  
+  }
+
+  .home {
+    background-image: url(../../../assets/img/banner2.jpg);
+    
+}

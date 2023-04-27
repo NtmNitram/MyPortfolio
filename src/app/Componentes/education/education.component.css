@@ -1,0 +1,79 @@
+
+.educacion-section {
+    background-color: var(--main-color);
+    color: var(--text-oscuro);
+    display: inline-block;
+  }
+
+  
+  .titulo {
+    margin-bottom: 0 auto;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+  
+  }
+  .container-timeline {
+    position: relative;
+  }
+  
+  .container__line {
+    border-right: 2px solid var(--bg-color);
+    left: 16px;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+  
+  }
+  .container__line-white {
+    border-right: 2px solid var(--main-color);
+    left: 16px;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+  
+  }
+  
+  .container__items {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .container__item {
+    margin-bottom: 8px;
+  }
+  
+  .container__top {
+    align-items: center;
+    display: flex;
+  }
+  
+  .container__circle {
+    background-color: var(--bg-dark);
+    border-radius: 9999px;
+    height: 32px;
+    width: 32px;
+  }
+  .container__circle-white {
+    background-color: var(--main-color);
+    border-radius: 9999px;
+    height: 32px;
+    width: 32px;
+  }
+  
+  
+  .container__title {
+    flex: 1;
+  }
+  
+  .container__desc {
+    margin-left: 48px;
+  }
+  
+  .img-logos {
+    width: 250px !important;
+    height:  120px !important;
+  
+  }
+  

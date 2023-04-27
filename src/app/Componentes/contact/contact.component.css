@@ -1,0 +1,89 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7f7;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .form__title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    }
+    
+    .form__group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+    }
+    
+    .form__label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+    }
+    
+    .form__input,
+    .form__textarea {
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    outline: none;
+    width: 100%;
+    }
+    
+    .form__input:focus,
+    .form__textarea:focus {
+    border-color: #6d7fcc;
+    }
+    
+    .form__textarea {
+    resize: none;
+    }
+    
+    .form__button {
+    background-color: #6d7fcc;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    }
+    
+    .form__button:hover {
+    background-color: #333;
+    }
+    
+    /* Estilos para el pie de página */
+    #contact {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    }
+    
+    .footer__year,
+    .footer__developer {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    }
+    
+    .footer__developer a {
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    .footer__developer a:hover {
+    text-decoration: underline;
+    }
