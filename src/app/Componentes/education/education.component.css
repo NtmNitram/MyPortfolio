@@ -1,8 +1,11 @@
 
 .educacion-section {
+  
     background-color: var(--main-color);
     color: var(--text-oscuro);
     display: inline-block;
+    min-height: 110vh;
+    
   }
 
   
@@ -15,6 +18,9 @@
   }
   .container-timeline {
     position: relative;
+    
+    
+    
   }
   
   .container__line {
@@ -23,6 +29,7 @@
     position: absolute;
     top: 0px;
     height: 90%;
+    
   
   }
   .container__line-white {
@@ -31,7 +38,7 @@
     position: absolute;
     top: 0px;
     height: 100%;
-  
+    
   }
   
   .container__items {

@@ -1,19 +1,32 @@
+
+    
+  #contact {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    }
+
 .form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #f7f7f7;
+    background-image: url(../../../assets/img/banner1.jpg);
+    background-size: cover;
+    background-position: center;
     padding: 50px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    }
-    
+    box-shadow: 0 0 20px rgba(91, 197, 15, 0.9);
+    font-family: Arial, sans-serif;
+    color: #fff;
+  }
+  
+   
     .form__title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #333;
+    color: #fffdfd;
     }
     
     .form__group {
@@ -24,10 +37,10 @@
     }
     
     .form__label {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 5px;
-    color: #333;
+    color: #ffffff;
     }
     
     .form__input,
@@ -40,18 +53,15 @@
     width: 100%;
     }
     
-    .form__input:focus,
-    .form__textarea:focus {
-    border-color: #6d7fcc;
-    }
+    
     
     .form__textarea {
     resize: none;
     }
     
     .form__button {
-    background-color: #6d7fcc;
-    color: #fff;
+    background-color: var(--bg-dark);
+    color: #000000;
     font-size: 1.2rem;
     font-weight: bold;
     padding: 10px 20px;
@@ -64,14 +74,11 @@
     
     .form__button:hover {
     background-color: #333;
+    color: #ffffff;
     }
     
     /* Estilos para el pie de página */
-    #contact {
-    background-color: #333;
-    color: #fff;
-    padding: 50px 0;
-    }
+  
     
     .footer__year,
     .footer__developer {
