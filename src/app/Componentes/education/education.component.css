@@ -83,4 +83,7 @@
     height:  120px !important;
   
   }
-  
+  .img-logos:hover{
+    width: 400px !important;
+    height:  250px !important;
+  }
