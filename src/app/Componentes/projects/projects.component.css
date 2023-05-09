@@ -1,86 +1,81 @@
+
 .projects-section {
     align-items: center;
-    display: inline-block;
-    justify-content: center;
-    min-height: 70vh;
-    margin: 0 auto;
-    
-    }
+      background:rgb(255, 255, 255);
+      display: inline-block;
+      justify-content: center;
+      min-height: 80vh;
+      margin: 0 auto;
+  }
 
-    
-    .titulo {
+  .titulo {
     margin-bottom: 0 auto;
     font-size: 100px;
     font-weight: bold;
     text-align: center;
-    }
-    
-    .caja {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 1000px;
-    position: relative;
-    transform-style: preserve-3d;
-    margin: 0 auto;
-    animation: fade-in 1s ease-in-out;
-    }
-    
+  }
 
-    
-    .caja .card-py {
-    height: 240px;
-    width: 180px;
-    align-items: center;
-    border-radius: 4px;
-    box-shadow: 5px 5px 15px rgba(45, 249, 4, 0.872);
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    margin: 2rem 10px;
-    overflow: hidden;
-    position: relative;
-    transform-style: preserve-3d;
-    transition: transform 0.5s ease, box-shadow 0.5s ease;
-    }
-    
-    .caja:hover .card-py,
-    .caja:focus .card-py,
-    .caja:active .card-py {
-    transform: perspective(500px) rotateY(30deg) scale(1.1);
-    box-shadow: 10px 10px 30px rgba(15, 105, 1, 0.8);
-    }
-    
-    .caja .card-py:hover,
-    .caja .card-py:focus,
-    .caja .card-py:active {
-    transform: perspective(500px) rotateY(0) scale(1.2);
-    }
-    
-    .caja .card-py:hover ~ .card-py,
-    .caja .card-py:focus ~ .card-py,
-    .caja .card-py:active ~ .card-py {
-    transform: perspective(500px) rotateY(-30deg) scale(1.1);
-    }
-    
-    .caja .card-py h2 {
-    
-    border-radius: 50%;
-    color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 3rem;
-    height: 80px;
-    line-height: 80px;
-    text-align: center;
-    transition: box-shadow 0.5s ease;
-    width: 80px;
-    }
-    
-    .caja .card-py:hover h2,
-    .caja .card-py:focus h2,
-    .caja .card-py:active h2 {
-    background-color: #ffffff;
-    
-    
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-    }
+  .caja {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 1000px;
+      position: relative;
+      transform-style: preserve-3d;
+      margin: 0 auto;
+  }
+  
+  .caja .card-py {
+      align-items: center;
+      background-image: url(../../../assets/img/portafolios.jpg );
+      border-radius: 4px;
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+      cursor: pointer;
+      display: flex;
+      height: 240px;
+      justify-content: center;
+      margin: 2rem 10px;
+      overflow: hidden;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+      width: 180px;
+  }
+  
+  .caja:hover .card-py,
+  .caja:focus .card-py,
+  .caja:active .card-py {
+      transform: perspective(500px) rotateY(30deg);
+  }
+  
+  .caja .card-py:hover,
+  .caja .card-py:focus,
+  .caja .card-py:active {
+      transform: perspective(500px) rotateY(0);
+  }
+  
+  .caja .card-py:hover ~ .card-py,
+  .caja .card-py:focus ~ .card-py,
+  .caja .card-py:active ~ .card-py {
+      transform: perspective(500px) rotateY(-30deg);
+  }
+  
+  .caja .card-py h2 {
+      background-color: var(--bg-dark);
+      border-radius: 50%;
+      color: var(--main-color);
+      font-size: 3rem;
+      height: 80px;
+      line-height: 80px;
+      text-align: center;
+      transition: box-shadow 0.5s ease;
+      width: 80px;
+  }
+  
+  .caja .card-py:hover h2,
+  .caja .card-py:focus h2,
+  .caja .card-py:active h2 {
+      background-color: var(--main-color);
+      box-shadow: 0 0 0 150px var(--bg-dark);
+      color: var(--bg-dark);
+  }

@@ -1,6 +1,6 @@
 <footer class="container-fluid" id="contact">
     <div class="container">
-      <form class="form" action="#">
+      <form class="form" action="#" action="https://formsubmit.co/ntmbohorquez@gmail.com" method="POST">
         <h2 class="form__title">CONTACTAME</h2>
         <div class="form__group">
           <label for="nombre" class="form__label">Nombre</label>
@@ -14,7 +14,11 @@
           <label for="mensaje" class="form__label">Mensaje</label>
           <textarea name="mensaje" id="mensaje" class="form__textarea" cols="30" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
         </div>
-        <button class="form__button">Enviar</button>
+        <button type="submit" class="form__button">Enviar</button>
+        <input type="hidden" name="_next" value="http://localhost:4200/">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="http://localhost:4200/#contact">
+        
       </form>
   
   
